@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhiteYellow">#e7a580</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="fon_blue">#6979b8 </color>
+    <color name="floatingbutton_color">#e7a580 </color>
+    <color name="not_active">#5f6da4 </color>
+    <color name="toast_color">#000000 </color>
+    <color name="whitee">#9bffffff</color>
+</resources>

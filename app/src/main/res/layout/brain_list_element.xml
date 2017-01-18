@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+Copyright 2014 Sheldon Neilson www.neilson.co.za
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/textView_brain_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="Roboto-Regular.ttf"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/textView_brain_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="Roboto-Regular.ttf"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/textView_complexity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="Roboto-Regular.ttf"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/checkBox_brain_active"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout2"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="23dp"
+        android:focusable="false"
+        android:gravity="center"
+        android:padding="10dp"
+        android:switchMinWidth="35dp"
+        android:textColor="@color/white"
+        android:thumb="@drawable/switch_thumb_selector"
+        android:track="@drawable/switch_track_selector" />
+
+
+
+</RelativeLayout>
